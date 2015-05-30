@@ -1,0 +1,4 @@
+<template name="PostItem">
+	<h1>Post an Item</h1>
+  {{> quickForm collection="Posts" id="postItemForm" type="insert" omitFields="createdBy,postedOn" buttonContent="Create"}}
+</template>
